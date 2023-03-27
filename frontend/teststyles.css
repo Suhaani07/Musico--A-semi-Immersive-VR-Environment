@@ -1,0 +1,19 @@
+#body {
+  text-align: center;
+  background-color: #d7e9f7 ;
+}
+
+#title {
+  font-size: 2rem;
+  color: #000000;
+  font-family: "Arvo", cursive;
+  margin-top: 3rem;
+}
+.set {
+  margin: 10% auto;
+}
+img{
+  height: 35rem;
+  width: 45rem;
+}
+
