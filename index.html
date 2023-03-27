@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Musico</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.ico">
+
+  
+<!--Footer Icons-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
+</head>
+
+
+<body>
+
+  <section id="logo">
+    <nav class="navbar navbar-expand-lg" id="navbar-custom">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./public/images/logo.jpg" alt="Logo" width="200" height="70" class="d-inline-block align-text-top"></a>
+        <a class="navbar-brand " id="brand-text" href="#">Musico</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#productcard">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cards">Discover</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+          </ul>
+          <span class="navbar-text">
+            <form class="d-flex" role="search" >
+              <input class="form-control" type="search" placeholder="Search here" aria-label="Search">
+              <button class=" btn btn-link" type="submit" ><img src="./public/images/search button.png" alt="Search" width="15" height="15"></button>
+            </form>
+          </span>
+        </div>
+      </div>
+    </nav>
+
+  </section>
+  <section id="slider">
+
+    <!--Slider-->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./public/images/poster1.jpg" class="d-block w-100" alt="Image">
+        </div>
+        <div class="carousel-item">
+          <img src="./public/images/poster5.png" class="d-block w-100" alt="image">
+        </div>
+        <div class="carousel-item">
+          <img src="./public/images/poster7.jpg" class="d-block w-100" alt="Image">
+        </div>
+        <div class="carousel-item">
+          <img src="./public/images/poster6.png" class="d-block w-100" alt="Image">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <section>
+
+    <div class="container-fluid" id="features">
+
+      <div class="row">
+        <div class="feature-box col-lg-4 ">
+          <img src="../frontend/public/images/m1.png" class="featurepicture" width="90px" height="90px"/>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <img src="../frontend/public/images/m2.png"  class="featurepicture" width="90px" height="90px"/>
+          
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <img src="../frontend/public/images/m3.png"  class="featurepicture" width="90px" height="90px"/>
+         
+        </div>
+      </div>
+
+
+    </div>
+
+
+  </section>
+
+
+  <!-- Product Cards -->
+
+  <section id="productcard">
+    <center><h2>Our Top Products</h2></center>
+    
+    <div class="gallery">
+      <div class="content">
+        <a href="product.html"><img src="../frontend/public/images/piano.jpg"width="200px" height="200px"></a>
+        <h3>Piano</h3>
+        <p>Yamaha Portable keyboard</p>
+        <h6>₹5000</h6>
+        <ul>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        </ul>
+      </div>
+      <div class="content">
+        <img src="../frontend/public/images/drum.jpg" width="200px" height="200px">
+        <h3>Earphone</h3>
+        <p>Pearl 5 set drum kit</p>
+        <h6>₹3000</h6>
+        <ul>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          <li><i class="fa fa-star" aria-hidden="true"></i></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Categories -->
+
+  <section id="cards">
+    <center><h2>Categories</h2></center>
+    
+    <div class="row">
+      <div class="col md 2">
+        <div class="card">
+          <img src="./public/images/keyboard.jpg" class="card-img-top" alt="keyboard">
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./public/images/guitar.jpg" class="card-img-top" alt="guitar">
+        </div>
+      </div>
+      <div class="col"><div class="card">
+        <img src="./public/images/drums.jpg" class="card-img-top" alt="drums">
+      </div>
+    </div>
+    <div class="w-100"></div>
+      <div class="col"></div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+
+   
+   
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+   
+  </section>
+
+
+  <!-- Pricing -->
+
+  
+
+
+  <!-- Download Button -->
+
+  <section id="cta">
+<center>   <!-- Google Play button -->
+<a href="https://www.kobinet.com.tr/" target="_blank" class="market-btn google-btn" role="button">
+  <span class="market-button-subtitle">Download on the</span>
+  <span class="market-button-title">Google Play</span>
+</a>
+
+<!-- Windows store button -->
+<a href="https://www.kobinet.com.tr/" target="_blank" class="market-btn windows-btn" role="button">
+  <span class="market-button-subtitle">Download on the</span>
+  <span class="market-button-title">Windows Store</span>
+</a>
+
+<!-- Amazon button -->
+<a href="https://www.kobinet.com.tr/" target="_blank" class="market-btn amazon-btn" role="button">
+  <span class="market-button-subtitle">Order now at</span>
+  <span class="market-button-title">Amazon.com</span>
+</a>
+  </center> 
+</div>
+</center>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <div class="footer-dark">
+
+    <div class="container">
+      <div class="row">
+          <div class="col-sm-6 col-md-3 item">
+              
+              <ul>
+                  <li><a href="#">Products</a></li>
+                  <li><a href="#">Categories</a></li>
+                  <li><a href="#">Contact Us</a></li>
+              </ul>
+          </div>
+          <div class="col-sm-6 col-md-3 item">
+              <h3>About</h3>
+              <ul>
+                  <li><a href="#">Company</a></li>
+                  <li><a href="#">Team</a></li>
+                 
+              </ul>
+          </div>
+          <div class="col-md-6 item text">
+              <h3>Musico</h3>
+               </div>
+          <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+      </div>
+      <p class="copyright">Musico © 2023</p>
+  </div>
+</div>
+  </footer>
+
+
+</body>
+
+</html>
